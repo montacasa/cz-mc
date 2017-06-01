@@ -52,20 +52,20 @@ module.exports = function (options) {
         {
           type: 'list',
           name: 'type',
-          message: 'Select the type of change that you\'re committing:',
+          message: 'Type: select the type of change that you\'re committing:',
           choices: choices
         }, {
           type: 'input',
           name: 'subject',
-          message: 'Write a short, imperative tense description of the change:\n'
+          message: 'Subject: write a short, imperative tense description of the change:\n'
         }, {
           type: 'input',
           name: 'body',
-          message: 'Provide a longer description of the change:\n'
+          message: 'Body: provide a longer description of the change:\n'
         }, {
           type: 'input',
           name: 'issues',
-          message: 'List any issues closed by this change:\n'
+          message: 'Issues: list any issues closed by this change:\n'
         }
       ]).then(function(answers) {
 

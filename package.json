@@ -1,6 +1,6 @@
 {
   "name": "cz-custom-udecor",
-  "version": "0.1.0-rc.7",
+  "version": "0.1.0-rc.8",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "commitizen": "2.9.6",
-    "cz-custom-udecor": "^0.1.0-rc.6"
+    "cz-custom-udecor": "^0.1.0-rc.7"
   },
   "czConfig": {
     "path": "./"

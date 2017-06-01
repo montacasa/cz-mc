@@ -24,9 +24,15 @@
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
-    "commitizen": "2.9.6"
+    "commitizen": "2.9.6",
+    "cz-custom-udecor": "0.1.0-rc.1"
   },
   "czConfig": {
     "path": "./"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-custom-udecor"
+    }
   }
 }

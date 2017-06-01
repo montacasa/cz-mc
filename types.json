@@ -18,6 +18,9 @@
     "[Fix]": {
       "description": "Fixing a bug"
     },
+    "[Intl]": {
+      "description": "Work on internationalization"
+    },
     "[Lint]": {
       "description": "Removing linter warnings"
     },

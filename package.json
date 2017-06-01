@@ -1,6 +1,6 @@
 {
   "name": "cz-conventional-changelog",
-  "version": "0.0.0-semantically-released.0",
+  "version": "0.1.0-rc",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,7 @@
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
-    "commitizen": "2.9.6",
-    "semantic-release": "^6.3.2"
+    "commitizen": "2.9.6"
   },
   "czConfig": {
     "path": "./"

@@ -1,46 +1,61 @@
 {
   "types": {
-    "[New]": {
-      "description": "Adding a new feature"
-    },
-    "[Fix]": {
-      "description": "Fixing a bug"
-    },
-    "[Docs]": {
-      "description": "Updating docs or documenting source code"
-    },
-    "[Test]": {
-      "description": "Adding missing tests or correcting existing tests"
-    },
-    "[Style]": {
-      "description": "Changing that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
-    },
-    "[Refactor]": {
-      "description": "Refactoring code"
-    },
-    "[Perf]": {
-      "description": "Improving performance"
-    },
-    "[Ship]": {
-      "description": "Deploys a release or hotfix"
-    },
     "[Build]": {
-      "description": "Changing that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)"
-    },
-    "[Config]": {
-      "description": "Changing configuration files"
-    },
-    "[Remove]": {
-      "description": "Deletes code or files"
-    },
-    "[Revert]": {
-      "description": "Reverting a previous commit"
+      "description": "Changing someting that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)"
     },
     "[Chore]": {
       "description": "Other changes that don't modify src or test files"
     },
     "[CI]": {
-      "description": "Changing CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)"
+      "description": "Fixing or adding CI build system"
+    },
+    "[Config]": {
+      "description": "Changing configuration files"
+    },
+    "[Docs]": {
+      "description": "Updating docs or documenting source code"
+    },
+    "[Fix]": {
+      "description": "Fixing a bug"
+    },
+    "[Lint]": {
+      "description": "Removing linter warnings"
+    },
+    "[New]": {
+      "description": "Adding a new feature"
+    },
+    "[Perf]": {
+      "description": "Improving performance"
+    },
+    "[Refactor]": {
+      "description": "Refactoring code"
+    },
+    "[Remove]": {
+      "description": "Removing code or files"
+    },
+    "[Revert]": {
+      "description": "Reverting to a previous commit"
+    },
+    "[Ship]": {
+      "description": "Deploying a new release or hotfix"
+    },
+    "[Struc]": {
+      "description": "Updating file architecture, structure or format of the code"
+    },
+    "[Style]": {
+      "description": "Changing something that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
+    },
+    "[Tests]": {
+      "description": "Adding or updating tests"
+    },
+    "[Typo]": {
+      "description": "Fixing a typo"
+    },
+    "[UI]": {
+      "description": "Updating the UI or styles file"
+    },
+    "[WIP]": {
+      "description": "Work in progress"
     }
   }
 }

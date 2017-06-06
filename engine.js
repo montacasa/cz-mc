@@ -52,20 +52,20 @@ module.exports = function (options) {
         {
           type: 'list',
           name: 'type',
-          message: 'Type - select the type of change that you\'re committing:',
+          message: 'Select a type ',
           choices: choices
         }, {
           type: 'input',
           name: 'subject',
-          message: 'Subject - write a short, imperative tense description of the change:\n'
+          message: 'Enter the commit title '
         }, {
           type: 'input',
           name: 'body',
-          message: 'Body - provide a longer description of the change:\n'
+          message: 'Enter the commit body '
         }, {
           type: 'input',
           name: 'issues',
-          message: 'Issues - list any issues closed by this change:\n'
+	  message: 'Enter issue references '
         }
       ]).then(function(answers) {
 

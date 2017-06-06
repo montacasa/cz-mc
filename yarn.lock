@@ -132,9 +132,9 @@ cz-conventional-changelog@1.2.0:
     right-pad "^1.0.1"
     word-wrap "^1.0.3"
 
-cz-custom-udecor@^0.1.0-rc.10:
-  version "0.1.0-rc.10"
-  resolved "https://registry.yarnpkg.com/cz-custom-udecor/-/cz-custom-udecor-0.1.0-rc.10.tgz#d4a775b70bc6f8625473c651ae1ca0e5f28baf17"
+cz-custom-udecor@^0.1.0-rc.11:
+  version "0.1.0-rc.11"
+  resolved "https://registry.yarnpkg.com/cz-custom-udecor/-/cz-custom-udecor-0.1.0-rc.11.tgz#890d7180da10e8338f378fe7aa33b9c96d2e6e63"
   dependencies:
     conventional-commit-types "^2.0.0"
     lodash.map "^4.5.1"

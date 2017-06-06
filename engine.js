@@ -52,20 +52,20 @@ module.exports = function (options) {
         {
           type: 'list',
           name: 'type',
-          message: 'Select a type ',
+          message: 'Select a type: ',
           choices: choices
         }, {
           type: 'input',
           name: 'subject',
-          message: 'Enter the commit title '
+          message: 'Enter the commit title: '
         }, {
           type: 'input',
           name: 'body',
-          message: 'Enter the commit body '
+          message: 'Enter the commit body: '
         }, {
           type: 'input',
           name: 'issues',
-	  message: 'Enter issue references '
+	  message: 'Enter issue references: '
         }
       ]).then(function(answers) {
 

@@ -1,7 +1,7 @@
 {
   "types": {
     "[Build]": {
-      "description": "Changing someting that affect the build system or external dependencies"
+      "description": "Changing something that affect the build system or external dependencies"
     },
     "[Chore]": {
       "description": "Other changes that don't modify src or test files"

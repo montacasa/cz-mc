@@ -132,17 +132,6 @@ cz-conventional-changelog@1.2.0:
     right-pad "^1.0.1"
     word-wrap "^1.0.3"
 
-cz-custom-udecor@^0.1.0-rc.11:
-  version "0.1.0-rc.11"
-  resolved "https://registry.yarnpkg.com/cz-custom-udecor/-/cz-custom-udecor-0.1.0-rc.11.tgz#890d7180da10e8338f378fe7aa33b9c96d2e6e63"
-  dependencies:
-    conventional-commit-types "^2.0.0"
-    lodash.map "^4.5.1"
-    longest "^1.0.1"
-    pad-right "^0.2.2"
-    right-pad "^1.0.1"
-    word-wrap "^1.0.3"
-
 dedent@0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.6.0.tgz#0e6da8f0ce52838ef5cec5c8f9396b0c1b64a3cb"

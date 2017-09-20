@@ -1,7 +1,7 @@
 {
-  "name": "cz-custom-udecor",
+  "name": "@montacasa/cz-mc",
   "version": "0.1.0",
-  "description": "Commitizen adapter following the conventional-changelog format.",
+  "description": "Commitizen adapter following the montacasa's changelog format.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -9,11 +9,6 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "homepage": "https://github.com/commitizen/cz-conventional-changelog",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
-  },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "conventional-commit-types": "^2.0.0",
@@ -24,15 +19,9 @@
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
-    "commitizen": "2.9.6",
-    "cz-custom-udecor": "^0.1.0-rc.11"
+    "commitizen": "2.9.6"
   },
   "czConfig": {
     "path": "./"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-custom-udecor"
-    }
   }
 }

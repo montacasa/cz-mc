@@ -2,6 +2,17 @@
 # yarn lockfile v1
 
 
+"@montacasa/cz-mc@^0.2.0-rc.1":
+  version "0.2.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@montacasa/cz-mc/-/cz-mc-0.2.0-rc.1.tgz#f7e5494285b6b80649fe59280beec0bfbdda7a6c"
+  dependencies:
+    conventional-commit-types "^2.0.0"
+    lodash.map "^4.5.1"
+    longest "^1.0.1"
+    pad-right "^0.2.2"
+    right-pad "^1.0.1"
+    word-wrap "^1.0.3"
+
 ansi-escapes@^1.1.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"

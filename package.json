@@ -19,9 +19,12 @@
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
+    "@montacasa/cz-mc": "^0.2.0-rc.1",
     "commitizen": "2.9.6"
   },
-  "czConfig": {
-    "path": "./"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@montacasa/cz-mc"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@montacasa/cz-mc",
-  "version": "0.2.0-rc.1",
+  "version": "0.2.0-rc.2",
   "description": "Commitizen adapter following the montacasa's changelog format.",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,12 @@
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
+    "@montacasa/cz-mc": "^0.2.0-rc.1",
     "commitizen": "2.9.6"
   },
-  "czConfig": {
-    "path": "./"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@montacasa/cz-mc"
+    }
   }
 }
